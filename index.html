@@ -1,39 +1,38 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
+    <div class="container">
+        <div class="sidebar">
+            <img src="profile.jpg" alt="Profile Picture">
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Resume</a></li>
             </ul>
-        </nav>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm [Your Name], a web developer passionate about creating beautiful and functional websites.</p>
-    </section>
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Details about your project.</p>
         </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: yourname@example.com</p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
-    </footer>
+        <div class="main-content">
+            <h1>Hi, I'm <span>Poonam Mittal.</span></h1>
+            <p>A MacOS developer with 2.5+ years of experience in designing and developing mobile and desktop applications for iOS and macOS. Excel in fast-paced environments, focusing on clean design, usability, and rapidly shipping quality products. Implemented enhancements in major projects, resulting in a 20% increase in user engagement within a few months.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <div class="buttons">
+                <button class="read-more">Read More</button>
+                <button class="contact-me">Contact Me</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
