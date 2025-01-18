@@ -646,9 +646,18 @@ time delivery.
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
         <p>
-          <a aria-label="Call Rutvik" data-position="top" data-tooltip="Call Rutvik"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Rutvik">+917284054227</a></a>
+          <!-- <a aria-label="Call Rutvik" data-position="top" data-tooltip="Call Rutvik" 
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped hoverline" href="tel:+917284054227"><i class="fa fa-phone"></i><a
+              aria-label="Call Rutvik">+91 7284054227</a></a> -->
+              <a 
+     href="tel:+917284054227" 
+     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" 
+     aria-label="Call Rutvik" 
+     data-position="top" 
+     data-tooltip="Call Rutvik">
+    <i class="fa fa-phone"></i>
+  </a>
+  <a href="tel:+917284054227" aria-label="Call Rutvik" class="hoverline">+91 7284054227</a>
         </p>
         <p>
           <a 
@@ -665,6 +674,7 @@ time delivery.
             > 
             rutvikpipariya2@gmail.com
           </a>
+          <!-- JAVASCRIPT Move into seperate file after all the things done -->
           <script>
               function openGmail() {
                   const recipient = "rutvikpipariya2@gmail.com";
