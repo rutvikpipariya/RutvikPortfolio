@@ -660,12 +660,20 @@ time delivery.
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
             <i class="fa fa-envelope"></i>
           </a>
-          <a 
-            aria-label="Email Rutvik" 
-            href="mailto:rutvikpipariya2@gmail.com" 
-            class="hoverline">
+            <a class="hoverline" 
+               onclick="openGmail()"
+            > 
             rutvikpipariya2@gmail.com
           </a>
+          <script>
+              function openGmail() {
+                  const recipient = "rutvikpipariya2@gmail.com";
+                  const subject = "Hello!";
+                  const body = "I wanted to reach out to you...";
+                  const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(recipient)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                  window.open(gmailLink, '_blank');
+              }
+          </script>
         </p>
         <p>
           <a aria-label="View Rutvik on GitHub" href="https://github.com/rutvikpipariya" target="_blank"
